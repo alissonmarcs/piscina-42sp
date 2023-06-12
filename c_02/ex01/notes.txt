@@ -1,0 +1,8 @@
+strncpy(char *dest, char *src, unsined int size);
+
+recebe um destino, uma origem e um tamanho, e deve copiar size bytes da origem para o destino.
+
+considerações:
+- caso não haja null byte nos size bytes da origem, o destino não será null-terminated.
+- se o size for maior que o tamanho da origem, strncpy escreverá null-bytes no destino para garantir que size bytes será ser escrito.
+- 
