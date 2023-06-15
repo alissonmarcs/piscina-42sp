@@ -6,7 +6,7 @@
 /*   By: almarcos <almarcos@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/12 14:38:35 by almarcos          #+#    #+#             */
-/*   Updated: 2023/06/12 17:45:43 by almarcos         ###   ########.fr       */
+/*   Updated: 2023/06/14 11:50:33 by almarcos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,10 +42,10 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 // int	main(void)
 // {
 // 	char	teste[30] = "mae eu";
-// 	ft_strncat(teste, " te amo", 8);
+// 	ft_strncat(teste, "amo vc", 2);
 // 	printf("%s\n", teste);
 
 // 	char	teste2[30]  = "mae eu";
-// 	strncat(teste2, " te amo", 8);
+// 	strncat(teste2, "amo vc", 2);
 // 	printf("%s\n", teste);
 // }
